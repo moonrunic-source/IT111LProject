@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://ckoenuhfdrrhu"]
+
+[ext_resource type="Script" uid="uid://cc2hcoey2h3af" path="res://Scripts/CharacterCon.cs" id="1_5u22f"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kgqw1"]
+size = Vector2(16.5, 15.5)
+
+[node name="CharacterCon" type="RigidBody2D" unique_id=101982100]
+position = Vector2(380, 299)
+script = ExtResource("1_5u22f")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1932162565]
+shape = SubResource("RectangleShape2D_kgqw1")
+
+[node name="Bay_Char" type="Sprite2D" parent="." unique_id=794783581]
+
+[node name="Shape" type="Sprite2D" parent="." unique_id=1104796720]

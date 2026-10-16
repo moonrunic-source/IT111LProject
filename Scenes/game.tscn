@@ -1,12 +1,14 @@
 [gd_scene format=3 uid="uid://yicge48108e0"]
 
 [ext_resource type="PackedScene" uid="uid://be8qbmt0fe144" path="res://Scenes/Player.tscn" id="1_ebmjs"]
+[ext_resource type="Script" uid="uid://chhjtj47ysxnc" path="res://Scripts/ScreenAdapt.cs" id="1_qxrlw"]
 
 [node name="game" type="Node2D" unique_id=1364078901]
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1028252493]
 position = Vector2(1080, 794)
 zoom = Vector2(0.5, 0.5)
+script = ExtResource("1_qxrlw")
 
 [node name="CharacterBody2D" parent="." unique_id=595673214 instance=ExtResource("1_ebmjs")]
 position = Vector2(963, 749)

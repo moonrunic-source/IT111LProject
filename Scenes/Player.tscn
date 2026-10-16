@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://be8qbmt0fe144"]
 
-[ext_resource type="Script" uid="uid://b8dn0y7t3n8gf" path="res://Scripts/Player.cs" id="1_kyqiw"]
+[ext_resource type="Script" uid="uid://b8dn0y7t3n8gf" path="res://Scripts/PlayerMovement.cs" id="1_kyqiw"]
 [ext_resource type="Texture2D" uid="uid://dsnriifkf4ygb" path="res://Assets/ChatGPT Image Oct 2, 2026, 06_00_13 PM.png" id="1_rpqav"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_kgqw1"]
@@ -18,13 +18,13 @@ position = Vector2(14, -16)
 scale = Vector2(0.24840024, 0.24795128)
 texture = ExtResource("1_rpqav")
 
-[node name="CollisionShape2D4" type="CollisionShape2D" parent="." unique_id=1771995258]
+[node name="CharacterSprite" type="CollisionShape2D" parent="." unique_id=1771995258]
 position = Vector2(-17.5, 14)
 rotation = 0.7853982
 scale = Vector2(2.1825516, 0.9364752)
 shape = SubResource("RectangleShape2D_kgqw1")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1960893812]
+[node name="GliderSprite" type="CollisionShape2D" parent="." unique_id=1960893812]
 position = Vector2(19, -66.000015)
 rotation = 0.26179937
 scale = Vector2(4.396329, 10.475616)

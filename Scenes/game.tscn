@@ -2,6 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://be8qbmt0fe144" path="res://Scenes/Player.tscn" id="1_ebmjs"]
 [ext_resource type="Script" uid="uid://chhjtj47ysxnc" path="res://Scripts/ScreenAdapt.cs" id="1_qxrlw"]
+[ext_resource type="PackedScene" uid="uid://d3oq4to551hsi" path="res://Nodes/CharacterBlockTest2.tscn" id="3_wrm1d"]
 
 [node name="game" type="Node2D" unique_id=1364078901]
 
@@ -10,5 +11,8 @@ position = Vector2(1080, 794)
 zoom = Vector2(0.5, 0.5)
 script = ExtResource("1_qxrlw")
 
-[node name="CharacterBody2D" parent="." unique_id=595673214 instance=ExtResource("1_ebmjs")]
-position = Vector2(963, 749)
+[node name="Area2D" parent="." unique_id=1120270882 instance=ExtResource("3_wrm1d")]
+position = Vector2(1290, 787)
+
+[node name="Player" parent="." unique_id=595673214 instance=ExtResource("1_ebmjs")]
+position = Vector2(848, 760)

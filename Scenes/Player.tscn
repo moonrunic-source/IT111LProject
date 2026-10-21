@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://be8qbmt0fe144"]
 
 [ext_resource type="Script" uid="uid://b8dn0y7t3n8gf" path="res://Scripts/PlayerMovement.cs" id="1_kyqiw"]
-[ext_resource type="Texture2D" uid="uid://dsnriifkf4ygb" path="res://Assets/ChatGPT Image Oct 2, 2026, 06_00_13 PM.png" id="1_rpqav"]
+[ext_resource type="Texture2D" uid="uid://bqokkphgyt2xk" path="res://Assets/r.png" id="2_kyqiw"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_kgqw1"]
 size = Vector2(17.676662, 117.2472)
@@ -16,7 +16,7 @@ script = ExtResource("1_kyqiw")
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=725237071]
 position = Vector2(14, -16)
 scale = Vector2(0.24840024, 0.24795128)
-texture = ExtResource("1_rpqav")
+texture = ExtResource("2_kyqiw")
 
 [node name="CharacterSprite" type="CollisionShape2D" parent="." unique_id=1771995258]
 position = Vector2(-17.5, 14)

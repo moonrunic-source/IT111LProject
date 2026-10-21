@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://cpmq5d71fklxq"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_kgqw1"]
+radius = 17.0
+height = 36.0
+
+[node name="AnimatableBody2D" type="AnimatableBody2D" unique_id=1110270484]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1853029879]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=289711707]
+shape = SubResource("CapsuleShape2D_kgqw1")

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b8gdk76q34v1n"
-path="res://.godot/imported/flipped.png-75c5a981bbfaa76d77daca307320d416.ctex"
+uid="uid://bfcw730x5mb46"
+path="res://.godot/imported/l.png-9d79f673e1f5cf20cddfb77b58a4cc31.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/flipped.png"
-dest_files=["res://.godot/imported/flipped.png-75c5a981bbfaa76d77daca307320d416.ctex"]
+source_file="res://Assets/l.png"
+dest_files=["res://.godot/imported/l.png-9d79f673e1f5cf20cddfb77b58a4cc31.ctex"]
 
 [params]
 
